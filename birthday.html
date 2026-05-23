@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Happy Birthday My Love</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="birthday.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Great+Vibes&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Floating Hearts -->
+  <div class="heart" style="left:10%; animation-delay:0s"></div>
+  <div class="heart" style="left:30%; animation-delay:2s"></div>
+  <div class="heart" style="left:50%; animation-delay:4s"></div>
+  <div class="heart" style="left:70%; animation-delay:1s"></div>
+  <div class="heart" style="left:90%; animation-delay:3s"></div>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1>Happy Birthday My Love ❤️</h1>
+    <p>
+      Today is all about celebrating the most beautiful person in my life.
+      Your smile brightens every moment, your love makes life magical,
+      and your presence is the greatest gift I could ever ask for.
+    </p>
+
+    <button onclick="scrollToMemories()">See Special Memories</button>
+  </section>
+
+  <!-- Memory Section -->
+  <section class="memories" id="memories">
+    <h2 class="title">Our Beautiful Memories</h2>
+
+    <div class="gallery">
+      <div class="card">
+        <img src="img.jpg" alt="memory">
+
+        <div class="card-content">
+          <h3>First Smile</h3>
+          <p>
+            The first time I saw your smile, I knew my world would never be the same again.
+          </p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="img 7 (1).jpg" alt="memory">
+
+        <div class="card-content">
+          <h3>Sweet Moments</h3>
+          <p>
+            Every second spent with you becomes a memory I cherish forever.
+          </p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="img 7 (2).jpg" alt="memory">
+
+        <div class="card-content">
+          <h3>Forever Together</h3>
+          <p>
+            Through every laugh and every challenge, I want us to stay together forever.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Message Section -->
+  <section class="message">
+    <h2>A Message For You 💌</h2>
+
+    <p>
+      On this special day, I want you to know how much you mean to me.
+      You are not just my sister, but also my peace, happiness, inspiration,
+      and best friend. Thank you for every smile, every moment, and every beautiful memory.
+      May your birthday be filled with endless joy, laughter, success, and all the love your heart can hold.
+    </p>
+
+    <div class="typing"></div>
+  </section>
+
+  <!-- Countdown Section -->
+  <section class="countdown">
+    <h2 class="title">Counting Every Beautiful Moment ⏳</h2>
+
+    <div class="count-boxes">
+      <div class="box">
+        <h3 id="days">00</h3>
+        <span>Days</span>
+      </div>
+
+      <div class="box">
+        <h3 id="hours">00</h3>
+        <span>Hours</span>
+      </div>
+
+      <div class="box">
+        <h3 id="minutes">00</h3>
+        <span>Minutes</span>
+      </div>
+
+      <div class="box">
+        <h3 id="seconds">00</h3>
+        <span>Seconds</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    Made with ❤️ for <span>Your Special Someone</span> | Happy Birthday 🎂
+  </footer>
+
+  <!-- Music -->
+  <audio id="birthdaySong" loop>
+    <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mp3">
+  </audio>
+
+  <button class="music-btn" onclick="toggleMusic()">🎵</button>
+
+  <script src="main.js"></script>
+
+</body>
+</html>
